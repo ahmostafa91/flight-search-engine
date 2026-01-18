@@ -1,0 +1,10 @@
+@use 'base/variables' as *;
+@use 'base/mixins' as *;
+@use 'base/reset';
+@use 'components/flight-card';
+@use 'components/filters';
+@use 'components/chart';
+
+.container-narrow { max-width: 1100px; }
+.section-title { font-weight: 700; }
+hr.section { border-color: rgba(255,255,255,.08); }

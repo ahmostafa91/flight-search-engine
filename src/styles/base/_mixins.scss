@@ -1,0 +1,18 @@
+@use './variables' as *;
+
+@mixin card {
+  background: $color-card;
+  border-radius: $radius;
+  box-shadow: $shadow;
+}
+
+@mixin text-muted {
+  color: $color-muted;
+}
+
+@mixin truncate($lines: 1) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+}
